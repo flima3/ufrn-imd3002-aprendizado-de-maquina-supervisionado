@@ -26,7 +26,7 @@ def plot_correl_matrix(df: pd.DataFrame, figsize: tuple = (12,8), fontsize: int 
 
     fig, ax = plt.subplots(figsize=(12, 8))
 
-    sns.heatmap(corr, mask=mask, annot=True, annot_kws={"size": fontsize}, fmt=".1f", ax=ax, cmap=PALETTE, vmin=-1, vmax=1, center=0)
+    sns.heatmap(corr, mask=mask, annot=True, annot_kws={"size": fontsize}, fmt=".2f", ax=ax, cmap=PALETTE, vmin=-1, vmax=1, center=0)
 
     plt.tight_layout()
     plt.show()
