@@ -8,3 +8,6 @@ PASTA_DADOS_PROCESSED = PASTA_PROJETO / 'data' / 'processed'
 
 DADOS_ORIGINAIS = PASTA_DADOS_RAW / 'breast-cancer.csv'
 DADOS_TRATADOS = PASTA_DADOS_PROCESSED / 'data.csv'
+
+# modelos
+PASTA_MODELOS = PASTA_PROJETO / 'models'
